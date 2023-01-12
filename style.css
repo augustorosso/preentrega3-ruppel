@@ -100,13 +100,13 @@ nav ul a:hover{
 
 
 .container{
-    background-color: #cedde0;
+    background-color: #b6edeb;
     background-size: cover;
     padding: 30px;
 }
 
 .container li{
-    background-color: #a2b1ca;
+    background-color: #20d5d8;
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: fit-content;
@@ -131,7 +131,9 @@ img{
     margin: 5px;
 }
 
-
+.footer{
+    background-color: #fff;
+}
 
 @media(max-width:700px){
     nav{
