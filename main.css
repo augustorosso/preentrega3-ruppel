@@ -56,6 +56,9 @@ nav .logo i {
   padding: 0px 5px;
   transition: transform 1s;
 }
+nav .logo i:hover {
+  transform: rotate(-40deg);
+}
 nav a {
   display: inline-block;
   list-style: none;
@@ -76,11 +79,6 @@ nav ul a {
           backdrop-filter: blur(1px);
   transition: background-color 0.3s;
 }
-
-nav .logo i:hover {
-  transform: rotate(-40deg);
-}
-
 nav ul a:hover {
   color: white;
   background-color: gold;
@@ -108,7 +106,6 @@ nav ul a:hover {
   border-radius: 4px;
   transition: all 0.6s;
 }
-
 .container li a:hover {
   padding: 19px 18px;
   background-color: #e0e5e8;
