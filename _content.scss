@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
@@ -106,9 +106,10 @@ nav{
 
 .container{
     background-color: #f2efe2;
+    height: 100%;
     border: 1px solid #000000;
-    margin-top: 10px;
-    width: 100%;
+    margin: 10px 0px;
+    width: auto;
     padding: 30px;
     display: grid;
 
@@ -130,7 +131,7 @@ nav{
 
         &:hover{
         padding: 19px 18px;
-        background-color: #e0e5e8;
+        
     }
     
         }
@@ -152,7 +153,9 @@ nav{
     }
 
     .alimentacion{
-        
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
         
 
         img{
@@ -162,7 +165,10 @@ nav{
     }
 
     .musculo{
-        
+        img{
+            width: 300px;
+        height: 350px;
+        }
     }
 
     .ejercicios{
