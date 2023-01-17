@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0;
   padding: 0;
 }
@@ -85,10 +85,12 @@ nav ul a:hover {
 }
 
 .container {
-  background-color: #20d5d8;
-  background-size: 100%;
+  background-color: #f2efe2;
+  border: 1px solid #000000;
+  margin-top: 10px;
+  width: 100%;
   padding: 30px;
-  display: flex;
+  display: grid;
 }
 .container li {
   font-size: 30px;
@@ -110,15 +112,37 @@ nav ul a:hover {
   padding: 19px 18px;
   background-color: #e0e5e8;
 }
-
-img {
+.container .basico {
+  display: flex;
+  padding: 18px;
+}
+.container .basico p {
+  margin: auto;
+}
+.container .basico img {
   width: 300px;
-  height: 200px;
-  margin: 5px;
+  height: 350px;
+  margin: auto;
+}
+.container .alimentacion img {
+  width: 300px;
+  height: 350px;
+}
+.container .ejercicios img {
+  width: 300px;
+  height: 350px;
+}
+
+#titulo {
+  padding: 10px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
+  color: #000000;
 }
 
 .footer {
-  background-color: #fff;
+  background-color: #E0D5BE;
 }
 
 @media (max-width: 700px) {
